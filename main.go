@@ -1,19 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"net/http"
+import "github.com/oshie15/go-blog.git/cmd"
 
-	"github.com/gin-gonic/gin"
-	"github.com/oshie15/go-blog.git/cmd"
-	"github.com/oshie15/go-blog.git/config"
-	"github.com/spf13/viper"
-)
-
-
-func main(){
+func main() {
 	cmd.Execute()
 }
-
-
-
